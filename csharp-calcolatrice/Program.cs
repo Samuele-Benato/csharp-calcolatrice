@@ -7,7 +7,7 @@
 
             // Test del metodo SumInt
             int sumIntResult = CalcoliHelper.SumInt(2, 3);
-            Console.WriteLine($"Somma intera: { sumIntResult}");
+            Console.WriteLine($"Somma intera: {sumIntResult}");
 
             // Test del metodo SumDouble
             double sumDoubleResult = CalcoliHelper.SumDouble(2.5, 3.7);
@@ -35,12 +35,12 @@
             Console.WriteLine($"Il valore assoluto di {number} è {absValue}");
 
             // Test del metodo AbsoluteValueDouble
-            double number2 = - 5.5;
+            double number2 = -5.5;
             double absValue2 = CalcoliHelper.AbsoluteValueDouble(number2);
             Console.WriteLine($"Il valore assoluto di {number2} è {absValue2}");
 
             // Test del metodo MinInt
-            int numberminInt= CalcoliHelper.MinInt(5, 3);
+            int numberminInt = CalcoliHelper.MinInt(5, 3);
             Console.WriteLine($"Numero più piccolo: {numberminInt}");
 
             // Test del metodo MinDouble
@@ -59,21 +59,8 @@
 
             // BONUS 
             // Test del metodo Power
-            double result = CalcoliHelper.Power(-2, 3.5);
-            Console.WriteLine(result);
-
-            /*
-             Creare una classe di helper CalcoliHelper.
-                Come visto a lezione, strutturare la classe in modo che non possa essere istanziata e che presenti i seguenti metodi `static`:
-                
-                **BONUS**:
-                Aggiungete il metodo per l’elevamento a potenza che prende come parametri due numeri interi (base ed esponente) 
-                e ritorna la base elevata all’esponente. 
-                Occhio che sia la base che l’esponente potrebbero essere uguali a zero oppure numeri negativi!
-                (caso esponente = 0 e base = 0 anche se in matematica sarebbe un numero indefinito usiamo 
-                l’approccio informatico che lo calcola come 1)
-                Buon lavoro!
-             */
+            double result = CalcoliHelper.Power(0, 0);
+            Console.WriteLine($"Risultato potenza: {result}");
         }
     }
 }
