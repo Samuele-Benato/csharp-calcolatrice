@@ -29,6 +29,11 @@
             double moltiplicationDoubleResult = CalcoliHelper.MoltiplicationDouble(5.8, 7.4);
             Console.WriteLine($"Moltiplicazione decimali: {moltiplicationDoubleResult}");
 
+            // Test del metodo AbsoluteValueInt
+            int number = -5;
+            int absValue = CalcoliHelper.AbsoluteValueInt(number);
+            Console.WriteLine($"Il valore assoluto di {number} è {absValue}");
+
             /*
              Creare una classe di helper CalcoliHelper.
                 Come visto a lezione, strutturare la classe in modo che non possa essere istanziata e che presenti i seguenti metodi `static`:
@@ -37,7 +42,7 @@
                
               
                 
-                - Moltiplicazione di due numeri double
+               
                 - Valore assoluto di un numero intero
                 - Valore assoluto di un numero double
                 - Minimo tra due numeri interi

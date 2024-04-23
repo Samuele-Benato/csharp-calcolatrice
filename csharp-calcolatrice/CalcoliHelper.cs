@@ -29,6 +29,11 @@ namespace csharp_calcolatrice
 
         public static double MoltiplicationDouble(double a, double b) => a * b;
 
+        public static int AbsoluteValueInt(int number)
+        {
+            return number < 0 ? - number : number;
+        }
+
 
     }
 }
