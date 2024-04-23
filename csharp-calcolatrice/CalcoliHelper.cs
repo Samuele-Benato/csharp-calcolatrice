@@ -19,6 +19,14 @@ namespace csharp_calcolatrice
         {
             return a < b ? (b - a) : (a - b);
         }
+
+        public static double DifferenceDouble(double a, double b)
+        {
+            return a < b ? (b - a) : (a - b);
+        }
+
+        public static int MoltiplicationInt(int a, int b) => a * b;
        
+
     }
 }

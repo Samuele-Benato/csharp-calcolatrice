@@ -7,15 +7,23 @@
 
             // Test del metodo SumInt
             int sumIntResult = CalcoliHelper.SumInt(2, 3);
-            Console.WriteLine("Somma intera: " + sumIntResult);
+            Console.WriteLine($"Somma intera: { sumIntResult}");
 
             // Test del metodo SumDouble
             double sumDoubleResult = CalcoliHelper.SumDouble(2.5, 3.7);
-            Console.WriteLine("Somma decimali: " + sumDoubleResult);
+            Console.WriteLine($"Somma decimali: {sumDoubleResult}");
 
             // Test del metodo DifferenceInt
             int differenceIntResult = CalcoliHelper.DifferenceInt(4, 13);
-            Console.WriteLine("Differenza intera: " + differenceIntResult);
+            Console.WriteLine($"Differenza intera: {differenceIntResult}");
+
+            // Test del metodo DifferenceDouble
+            double differenceDoubleResult = CalcoliHelper.DifferenceDouble(5.5, 3.2);
+            Console.WriteLine($"Differenza decimali: {differenceDoubleResult}");
+
+            // Test del metodo MoltiplicationInt
+            int moltiplicationIntResult = CalcoliHelper.MoltiplicationInt(5, 3);
+            Console.WriteLine($"Moltiplicazione intera: {moltiplicationIntResult}");
 
             /*
              Creare una classe di helper CalcoliHelper.
@@ -23,7 +31,7 @@
                 
            
                
-                - Differenza tra due numeri double
+              
                 - Moltiplicazione di due numeri interi
                 - Moltiplicazione di due numeri double
                 - Valore assoluto di un numero intero
