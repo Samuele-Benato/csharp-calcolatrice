@@ -4,12 +4,25 @@
     {
         static void Main(string[] args)
         {
+
+            // Test del metodo SumInt
+            int sumIntResult = CalcoliHelper.SumInt(2, 3);
+            Console.WriteLine("Somma intera: " + sumIntResult);
+
+            // Test del metodo SumDouble
+            double sumDoubleResult = CalcoliHelper.SumDouble(2.5, 3.7);
+            Console.WriteLine("Somma decimali: " + sumDoubleResult);
+
+            // Test del metodo DifferenceInt
+            int differenceIntResult = CalcoliHelper.DifferenceInt(4, 13);
+            Console.WriteLine("Differenza intera: " + differenceIntResult);
+
             /*
              Creare una classe di helper CalcoliHelper.
                 Come visto a lezione, strutturare la classe in modo che non possa essere istanziata e che presenti i seguenti metodi `static`:
-                - Somma di due numeri interi
-                - Somma di due numeri double
-                - Differenza tra due numeri interi
+                
+           
+               
                 - Differenza tra due numeri double
                 - Moltiplicazione di due numeri interi
                 - Moltiplicazione di due numeri double
