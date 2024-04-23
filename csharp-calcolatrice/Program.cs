@@ -39,6 +39,10 @@
             double absValue2 = CalcoliHelper.AbsoluteValueDouble(number2);
             Console.WriteLine($"Il valore assoluto di {number2} è {absValue2}");
 
+            // Test del metodo MinInt
+            int numberminInt= CalcoliHelper.MinInt(5, 3);
+            Console.WriteLine($"Numero più piccolo: {numberminInt}");
+
             /*
              Creare una classe di helper CalcoliHelper.
                 Come visto a lezione, strutturare la classe in modo che non possa essere istanziata e che presenti i seguenti metodi `static`:
@@ -49,7 +53,7 @@
                 
                
                
-                - Valore assoluto di un numero double
+                
                 - Minimo tra due numeri interi
                 - Minimo tra due numeri double
                 - Massimo tra due numeri interi
