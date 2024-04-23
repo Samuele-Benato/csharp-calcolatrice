@@ -47,6 +47,10 @@
             double numberminDouble = CalcoliHelper.MinDouble(5.7, 3.8);
             Console.WriteLine($"Numero più piccolo: {numberminDouble}");
 
+            // Test del metodo MinInt
+            int numbermaxInt = CalcoliHelper.MaxInt(5, 3);
+            Console.WriteLine($"Numero più grande: {numbermaxInt}");
+
             /*
              Creare una classe di helper CalcoliHelper.
                 Come visto a lezione, strutturare la classe in modo che non possa essere istanziata e che presenti i seguenti metodi `static`:
@@ -59,7 +63,6 @@
                
                 
               
-                - Minimo tra due numeri double
                 - Massimo tra due numeri interi
                 - Massimo tra due numeri double
                 Il fatto di dover scrivere lo stesso metodo per tipi di parametro diversi applica nella pratica uno dei principi di programmazione ad oggetti che abbiamo visto oggi…Quale? Scrivetelo in un commento all’interno del codice! :faccia_nerd:

@@ -29,5 +29,6 @@ namespace csharp_calcolatrice
 
         public static double MinDouble(double a, double b) => a < b ? a : b;
 
+        public static int MaxInt(int a, int b) => a > b ? a : b;
     }
 }
