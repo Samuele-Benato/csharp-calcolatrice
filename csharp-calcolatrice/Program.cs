@@ -55,24 +55,23 @@
             double numbermaxDouble = CalcoliHelper.MaxDouble(5.7, 3.8);
             Console.WriteLine($"Numero più grande: {numbermaxDouble}");
 
+            // DRY - Don't Repeat Yourself
+
+            // BONUS 
+            // Test del metodo Power
+            double result = CalcoliHelper.Power(-2, 3.5);
+            Console.WriteLine(result);
+
             /*
              Creare una classe di helper CalcoliHelper.
                 Come visto a lezione, strutturare la classe in modo che non possa essere istanziata e che presenti i seguenti metodi `static`:
                 
-           
-               
-              
-                
-               
-               
-                
-              
-                - Massimo tra due numeri double
-                Il fatto di dover scrivere lo stesso metodo per tipi di parametro diversi applica nella pratica uno dei principi di programmazione ad oggetti che abbiamo visto oggi…Quale? Scrivetelo in un commento all’interno del codice! :faccia_nerd:
-                Testate tutti i metodi della vostra classe di helper (con un esempio per ogni casistica).
                 **BONUS**:
-                Aggiungete il metodo per l’elevamento a potenza che prende come parametri due numeri interi (base ed esponente) e ritorna la base elevata all’esponente. Occhio che sia la base che l’esponente potrebbero essere uguali a zero oppure numeri negativi!
-                (caso esponente = 0 e base = 0 anche se in matematica sarebbe un numero indefinito usiamo l’approccio informatico che lo calcola come 1)
+                Aggiungete il metodo per l’elevamento a potenza che prende come parametri due numeri interi (base ed esponente) 
+                e ritorna la base elevata all’esponente. 
+                Occhio che sia la base che l’esponente potrebbero essere uguali a zero oppure numeri negativi!
+                (caso esponente = 0 e base = 0 anche se in matematica sarebbe un numero indefinito usiamo 
+                l’approccio informatico che lo calcola come 1)
                 Buon lavoro!
              */
         }

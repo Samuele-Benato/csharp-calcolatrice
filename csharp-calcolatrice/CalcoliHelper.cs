@@ -32,5 +32,20 @@ namespace csharp_calcolatrice
         public static int MaxInt(int a, int b) => a > b ? a : b;
 
         public static double MaxDouble(double a, double b) => a > b ? a : b;
+
+        // BONUS
+        public static double Power(double a, double b)
+        {
+            double result = 1;
+
+            double absExponent = b < 0 ? -b : b;
+
+            for (int i = 0; i< absExponent; i++)
+            {
+                result *= a;
+            }
+
+            return b >= 0 ? result : 1 / result;
+        }
     }
 }
