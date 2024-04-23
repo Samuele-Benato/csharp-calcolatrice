@@ -8,6 +8,9 @@ namespace csharp_calcolatrice
 {
     static class CalcoliHelper
     {
-       
+        public static int SumInt(int a, int b)
+        {
+            return a + b;
+        }
     }
 }
