@@ -26,7 +26,9 @@ namespace csharp_calcolatrice
         }
 
         public static int MoltiplicationInt(int a, int b) => a * b;
-       
+
+        public static double MoltiplicationDouble(double a, double b) => a * b;
+
 
     }
 }
