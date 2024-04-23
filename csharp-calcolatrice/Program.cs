@@ -43,6 +43,10 @@
             int numberminInt= CalcoliHelper.MinInt(5, 3);
             Console.WriteLine($"Numero più piccolo: {numberminInt}");
 
+            // Test del metodo MinDouble
+            double numberminDouble = CalcoliHelper.MinDouble(5.7, 3.8);
+            Console.WriteLine($"Numero più piccolo: {numberminDouble}");
+
             /*
              Creare una classe di helper CalcoliHelper.
                 Come visto a lezione, strutturare la classe in modo che non possa essere istanziata e che presenti i seguenti metodi `static`:
@@ -54,7 +58,7 @@
                
                
                 
-                - Minimo tra due numeri interi
+              
                 - Minimo tra due numeri double
                 - Massimo tra due numeri interi
                 - Massimo tra due numeri double
