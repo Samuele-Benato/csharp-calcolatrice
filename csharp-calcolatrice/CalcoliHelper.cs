@@ -34,6 +34,11 @@ namespace csharp_calcolatrice
             return number < 0 ? - number : number;
         }
 
+        public static double AbsoluteValueDouble(double number)
+        {
+            return number < 0 ? -number : number;
+        }
+
 
     }
 }
