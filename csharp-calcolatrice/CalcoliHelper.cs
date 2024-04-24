@@ -45,6 +45,15 @@ namespace csharp_calcolatrice
                 result *= a;
             }
 
+            if(b < 0 )
+            {
+                b = -b;
+                for(int i = 0; i < b; i++)
+                {
+                    result /= a;
+                }
+            }
+
             return b >= 0 ? result : 1 / result;
         }
     }
