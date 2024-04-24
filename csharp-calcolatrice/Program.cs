@@ -59,7 +59,7 @@
 
             // BONUS 
             // Test del metodo Power
-            double result = CalcoliHelper.Power(0,0);
+            double result = CalcoliHelper.Power(2, -1);
             Console.WriteLine($"Risultato potenza: {result}");
         }
     }

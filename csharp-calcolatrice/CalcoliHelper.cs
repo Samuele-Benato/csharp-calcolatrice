@@ -38,9 +38,7 @@ namespace csharp_calcolatrice
         {
             double result = 1;
 
-            double absExponent = b < 0 ? -b : b;
-
-            for (int i = 0; i< absExponent; i++)
+            for (int i = 0; i< b; i++)
             {
                 result *= a;
             }
@@ -50,7 +48,7 @@ namespace csharp_calcolatrice
                 b = -b;
                 for(int i = 0; i < b; i++)
                 {
-                    result /= a;
+                    result /= (a * b);
                 }
             }
 
